@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2E7DCCB20C198EE00FC1A6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E7DCCA20C198EE00FC1A6D /* AppDelegate.swift */; };
+		C2E7DCCD20C198EE00FC1A6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E7DCCC20C198EE00FC1A6D /* ViewController.swift */; };
+		C2E7DCD020C198EE00FC1A6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E7DCCE20C198EE00FC1A6D /* Main.storyboard */; };
+		C2E7DCD220C198EF00FC1A6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E7DCD120C198EF00FC1A6D /* Assets.xcassets */; };
+		C2E7DCD520C198EF00FC1A6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E7DCD320C198EF00FC1A6D /* LaunchScreen.storyboard */; };
+		C2E7DCDA20C198EF00FC1A6D /* DistractionJournal WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = C2E7DCD920C198EF00FC1A6D /* DistractionJournal WatchKit App.app */; };
+		C2E7DCE020C198EF00FC1A6D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E7DCDE20C198EF00FC1A6D /* Interface.storyboard */; };
+		C2E7DCE220C198F000FC1A6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E7DCE120C198F000FC1A6D /* Assets.xcassets */; };
+		C2E7DCE920C198F000FC1A6D /* DistractionJournal WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = C2E7DCE820C198F000FC1A6D /* DistractionJournal WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C2E7DCEE20C198F000FC1A6D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E7DCED20C198F000FC1A6D /* InterfaceController.swift */; };
+		C2E7DCF020C198F000FC1A6D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E7DCEF20C198F000FC1A6D /* ExtensionDelegate.swift */; };
+		C2E7DCF220C198F000FC1A6D /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E7DCF120C198F000FC1A6D /* NotificationController.swift */; };
+		C2E7DCF420C198F100FC1A6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E7DCF320C198F100FC1A6D /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2E7DCDB20C198EF00FC1A6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2E7DCBF20C198EE00FC1A6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2E7DCD820C198EF00FC1A6D;
+			remoteInfo = "DistractionJournal WatchKit App";
+		};
+		C2E7DCEA20C198F000FC1A6D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2E7DCBF20C198EE00FC1A6D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2E7DCE720C198F000FC1A6D;
+			remoteInfo = "DistractionJournal WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C2E7DCFC20C198F100FC1A6D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				C2E7DCE920C198F000FC1A6D /* DistractionJournal WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E7DD0020C198F100FC1A6D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				C2E7DCDA20C198EF00FC1A6D /* DistractionJournal WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C2E7DCC720C198EE00FC1A6D /* DistractionJournal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DistractionJournal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E7DCCA20C198EE00FC1A6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2E7DCCC20C198EE00FC1A6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2E7DCCF20C198EE00FC1A6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2E7DCD120C198EF00FC1A6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2E7DCD420C198EF00FC1A6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2E7DCD620C198EF00FC1A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2E7DCD920C198EF00FC1A6D /* DistractionJournal WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DistractionJournal WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E7DCDF20C198EF00FC1A6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		C2E7DCE120C198F000FC1A6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2E7DCE320C198F000FC1A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2E7DCE820C198F000FC1A6D /* DistractionJournal WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DistractionJournal WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2E7DCED20C198F000FC1A6D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		C2E7DCEF20C198F000FC1A6D /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		C2E7DCF120C198F000FC1A6D /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		C2E7DCF320C198F100FC1A6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2E7DCF520C198F100FC1A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2E7DCF620C198F100FC1A6D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2E7DCC420C198EE00FC1A6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E7DCE520C198F000FC1A6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2E7DCBE20C198EE00FC1A6D = {
+			isa = PBXGroup;
+			children = (
+				C2E7DCC920C198EE00FC1A6D /* DistractionJournal */,
+				C2E7DCDD20C198EF00FC1A6D /* DistractionJournal WatchKit App */,
+				C2E7DCEC20C198F000FC1A6D /* DistractionJournal WatchKit Extension */,
+				C2E7DCC820C198EE00FC1A6D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2E7DCC820C198EE00FC1A6D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2E7DCC720C198EE00FC1A6D /* DistractionJournal.app */,
+				C2E7DCD920C198EF00FC1A6D /* DistractionJournal WatchKit App.app */,
+				C2E7DCE820C198F000FC1A6D /* DistractionJournal WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2E7DCC920C198EE00FC1A6D /* DistractionJournal */ = {
+			isa = PBXGroup;
+			children = (
+				C2E7DCCA20C198EE00FC1A6D /* AppDelegate.swift */,
+				C2E7DCCC20C198EE00FC1A6D /* ViewController.swift */,
+				C2E7DCCE20C198EE00FC1A6D /* Main.storyboard */,
+				C2E7DCD120C198EF00FC1A6D /* Assets.xcassets */,
+				C2E7DCD320C198EF00FC1A6D /* LaunchScreen.storyboard */,
+				C2E7DCD620C198EF00FC1A6D /* Info.plist */,
+			);
+			path = DistractionJournal;
+			sourceTree = "<group>";
+		};
+		C2E7DCDD20C198EF00FC1A6D /* DistractionJournal WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				C2E7DCDE20C198EF00FC1A6D /* Interface.storyboard */,
+				C2E7DCE120C198F000FC1A6D /* Assets.xcassets */,
+				C2E7DCE320C198F000FC1A6D /* Info.plist */,
+			);
+			path = "DistractionJournal WatchKit App";
+			sourceTree = "<group>";
+		};
+		C2E7DCEC20C198F000FC1A6D /* DistractionJournal WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C2E7DCED20C198F000FC1A6D /* InterfaceController.swift */,
+				C2E7DCEF20C198F000FC1A6D /* ExtensionDelegate.swift */,
+				C2E7DCF120C198F000FC1A6D /* NotificationController.swift */,
+				C2E7DCF320C198F100FC1A6D /* Assets.xcassets */,
+				C2E7DCF520C198F100FC1A6D /* Info.plist */,
+				C2E7DCF620C198F100FC1A6D /* PushNotificationPayload.apns */,
+			);
+			path = "DistractionJournal WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2E7DCC620C198EE00FC1A6D /* DistractionJournal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2E7DD0120C198F100FC1A6D /* Build configuration list for PBXNativeTarget "DistractionJournal" */;
+			buildPhases = (
+				C2E7DCC320C198EE00FC1A6D /* Sources */,
+				C2E7DCC420C198EE00FC1A6D /* Frameworks */,
+				C2E7DCC520C198EE00FC1A6D /* Resources */,
+				C2E7DD0020C198F100FC1A6D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2E7DCDC20C198EF00FC1A6D /* PBXTargetDependency */,
+			);
+			name = DistractionJournal;
+			productName = DistractionJournal;
+			productReference = C2E7DCC720C198EE00FC1A6D /* DistractionJournal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2E7DCD820C198EF00FC1A6D /* DistractionJournal WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2E7DCFD20C198F100FC1A6D /* Build configuration list for PBXNativeTarget "DistractionJournal WatchKit App" */;
+			buildPhases = (
+				C2E7DCD720C198EF00FC1A6D /* Resources */,
+				C2E7DCFC20C198F100FC1A6D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2E7DCEB20C198F000FC1A6D /* PBXTargetDependency */,
+			);
+			name = "DistractionJournal WatchKit App";
+			productName = "DistractionJournal WatchKit App";
+			productReference = C2E7DCD920C198EF00FC1A6D /* DistractionJournal WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		C2E7DCE720C198F000FC1A6D /* DistractionJournal WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2E7DCF920C198F100FC1A6D /* Build configuration list for PBXNativeTarget "DistractionJournal WatchKit Extension" */;
+			buildPhases = (
+				C2E7DCE420C198F000FC1A6D /* Sources */,
+				C2E7DCE520C198F000FC1A6D /* Frameworks */,
+				C2E7DCE620C198F000FC1A6D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DistractionJournal WatchKit Extension";
+			productName = "DistractionJournal WatchKit Extension";
+			productReference = C2E7DCE820C198F000FC1A6D /* DistractionJournal WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2E7DCBF20C198EE00FC1A6D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Ana Neto";
+				TargetAttributes = {
+					C2E7DCC620C198EE00FC1A6D = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					C2E7DCD820C198EF00FC1A6D = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					C2E7DCE720C198F000FC1A6D = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = C2E7DCC220C198EE00FC1A6D /* Build configuration list for PBXProject "DistractionJournal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2E7DCBE20C198EE00FC1A6D;
+			productRefGroup = C2E7DCC820C198EE00FC1A6D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2E7DCC620C198EE00FC1A6D /* DistractionJournal */,
+				C2E7DCD820C198EF00FC1A6D /* DistractionJournal WatchKit App */,
+				C2E7DCE720C198F000FC1A6D /* DistractionJournal WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2E7DCC520C198EE00FC1A6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E7DCD520C198EF00FC1A6D /* LaunchScreen.storyboard in Resources */,
+				C2E7DCD220C198EF00FC1A6D /* Assets.xcassets in Resources */,
+				C2E7DCD020C198EE00FC1A6D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E7DCD720C198EF00FC1A6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E7DCE220C198F000FC1A6D /* Assets.xcassets in Resources */,
+				C2E7DCE020C198EF00FC1A6D /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E7DCE620C198F000FC1A6D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E7DCF420C198F100FC1A6D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2E7DCC320C198EE00FC1A6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E7DCCD20C198EE00FC1A6D /* ViewController.swift in Sources */,
+				C2E7DCCB20C198EE00FC1A6D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2E7DCE420C198F000FC1A6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2E7DCF220C198F000FC1A6D /* NotificationController.swift in Sources */,
+				C2E7DCF020C198F000FC1A6D /* ExtensionDelegate.swift in Sources */,
+				C2E7DCEE20C198F000FC1A6D /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2E7DCDC20C198EF00FC1A6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2E7DCD820C198EF00FC1A6D /* DistractionJournal WatchKit App */;
+			targetProxy = C2E7DCDB20C198EF00FC1A6D /* PBXContainerItemProxy */;
+		};
+		C2E7DCEB20C198F000FC1A6D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2E7DCE720C198F000FC1A6D /* DistractionJournal WatchKit Extension */;
+			targetProxy = C2E7DCEA20C198F000FC1A6D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2E7DCCE20C198EE00FC1A6D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2E7DCCF20C198EE00FC1A6D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2E7DCD320C198EF00FC1A6D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2E7DCD420C198EF00FC1A6D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		C2E7DCDE20C198EF00FC1A6D /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2E7DCDF20C198EF00FC1A6D /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2E7DCF720C198F100FC1A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2E7DCF820C198F100FC1A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2E7DCFA20C198F100FC1A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X82N4CHKBS;
+				INFOPLIST_FILE = "DistractionJournal WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ananeto.DistractionJournal.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		C2E7DCFB20C198F100FC1A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X82N4CHKBS;
+				INFOPLIST_FILE = "DistractionJournal WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ananeto.DistractionJournal.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		C2E7DCFE20C198F100FC1A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X82N4CHKBS;
+				IBSC_MODULE = DistractionJournal_WatchKit_Extension;
+				INFOPLIST_FILE = "DistractionJournal WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ananeto.DistractionJournal.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		C2E7DCFF20C198F100FC1A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X82N4CHKBS;
+				IBSC_MODULE = DistractionJournal_WatchKit_Extension;
+				INFOPLIST_FILE = "DistractionJournal WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ananeto.DistractionJournal.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		C2E7DD0220C198F100FC1A6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X82N4CHKBS;
+				INFOPLIST_FILE = DistractionJournal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ananeto.DistractionJournal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2E7DD0320C198F100FC1A6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X82N4CHKBS;
+				INFOPLIST_FILE = DistractionJournal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ananeto.DistractionJournal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2E7DCC220C198EE00FC1A6D /* Build configuration list for PBXProject "DistractionJournal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E7DCF720C198F100FC1A6D /* Debug */,
+				C2E7DCF820C198F100FC1A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2E7DCF920C198F100FC1A6D /* Build configuration list for PBXNativeTarget "DistractionJournal WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E7DCFA20C198F100FC1A6D /* Debug */,
+				C2E7DCFB20C198F100FC1A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2E7DCFD20C198F100FC1A6D /* Build configuration list for PBXNativeTarget "DistractionJournal WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E7DCFE20C198F100FC1A6D /* Debug */,
+				C2E7DCFF20C198F100FC1A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2E7DD0120C198F100FC1A6D /* Build configuration list for PBXNativeTarget "DistractionJournal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2E7DD0220C198F100FC1A6D /* Debug */,
+				C2E7DD0320C198F100FC1A6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2E7DCBF20C198EE00FC1A6D /* Project object */;
+}
